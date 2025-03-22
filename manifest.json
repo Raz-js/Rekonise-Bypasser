@@ -1,0 +1,31 @@
+{
+  "manifest_version": 3,
+  "name": "Rekonise URL Processor",
+  "version": "1.0",
+  "description": "Processes Rekonise URLs and extracts download links automatically. - Raz",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "tabs"
+  ],
+  "host_permissions": [
+    "*://rekonise.com/*",
+    "*://api.rekonise.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}
