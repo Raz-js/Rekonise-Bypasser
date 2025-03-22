@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Rekonise URL Processor",
+  "name": "Rekonise Bypasser",
   "version": "1.0",
   "description": "Processes Rekonise URLs and extracts download links automatically. - Raz",
   "permissions": [
